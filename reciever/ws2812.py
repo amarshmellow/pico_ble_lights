@@ -10,7 +10,7 @@ import gc
 PIN_NUM = const(17)
 
 # Configure the number of WS2812 LEDs.
-NUM_LEDS = const(10)  # must be a multiple of GROUP_SIZE
+NUM_LEDS = const(17)  # must be a multiple of GROUP_SIZE
 GROUP_SIZE = const(1)
 
 BRIGHTNESSES = array.array("I", [30, 100, 200, 255, 200, 100])
